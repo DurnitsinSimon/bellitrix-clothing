@@ -32,6 +32,8 @@ export class ClotheService {
   }
 
   async findById(id: ObjectId): Promise<Clothe> {
+    
+    
     return this.clotheModel.findById(id);
   }
 

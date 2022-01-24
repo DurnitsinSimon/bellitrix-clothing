@@ -14,8 +14,8 @@ const MainLayout: FC<IProps> = ({ children, title, description }) => {
 	return (
 		<div className={styles.wrapper}>
 			<Head>
-				<title>{title || 'nebular'}</title>
-				<meta name={'description'} content={'nebular' + description} />
+				<title>{title || 'BELLITRIX'}</title>
+				<meta name={'description'} content={'bellitrix' + description} />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header />
